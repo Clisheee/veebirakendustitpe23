@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        /* Tomas Jastremski
+        22.05
+        Ulesanne 2*/
+
+        /* Kellaaeg*/
+        
+        let hrs = 2;
+        let mins = 38;
+        let secs = 59;
+        let PM = "PM";
+        let kell = hrs+ ":"+ mins+ ":" + secs + PM;
+        console.log(kell)
+    </script>
+    <script>
+        /* Tsitaat lause sees*/
+        let nimi = "John Lennon"
+        let quote = "'You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one.'"
+        let quotes = quote + " -" +nimi 
+        console.log(quotes)
+        
+    </script>
+    <script>
+        /*Mallide kasutamine*/
+        let nimi1 = "Jüri"
+        let pere = "Jurakas"
+        let nimi2 =(nimi1.charAt(0))
+        let pere2 = (pere.charAt(0))
+
+        let nimthd = `Jüri Jurakas nimetähed on ${nimi2}.${pere2}`
+        console.log(nimthd)
+
+
+    </script>
+    <script>
+        /*Perenime pikkus*/
+
+        let piere = "Jurakas, Jüri"
+        let ppere = (piere.split(",")[0]);
+        console.log(ppere);
+        console.log(ppere.length);
+    
+    
+    </script>
+    <script>
+        /*E-posti aadressi muutmine*/
+        let epost = "karrolk@netlog.com";
+        let uuspost = (epost.split("@")[0]);
+        console.log(uuspost + "@gmail.com");
+        
+    </script>
+    <script>
+        /*Andmerida analüüs*/
+
+        let andmed = "1,Marshal,Martinovic,mmartinovic0@dedecms.com,Male,40.19.226.175"
+        let Ip = console.log(andmed.split(",")[5]);
+        let mail = (andmed.split(",")[3]);
+        let mail1 = (mail.split("@")[0]);
+        let mail2 = console.log(mail1)
+
+
+    </script>
+
+
+
+
+    
+</body>
+</html>

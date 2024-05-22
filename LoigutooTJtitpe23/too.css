@@ -1,0 +1,101 @@
+p{
+    width: 640px;
+}
+.kollane-ruut {background-color: yellow;
+    border:2px solid red;
+
+}
+.suurus{
+    color: rgb(0, 206, 206);
+}
+.font{
+    color: rgb(0, 206, 206);
+    text-decoration: underline;
+}
+.punane{
+    color: red;
+    font-weight: bold;
+}
+.Algerian{
+    font-weight: bold;
+    font-family: Pussycat, Algerian, Broadway;
+    line-height: 2rem;
+    font-size: 2rem;
+    color: purple;
+    letter-spacing: 0.3cm;
+}
+
+#P1{
+    background-color: rgb(67, 172, 93);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    margin-right: 5cm;
+    margin-top: 12pt; /*lõiguvahed  */
+    text-indent: 2cm;
+    text-align: left;
+    line-height: 1rem;
+    border-left: solid green;
+    border-bottom: solid green;
+    border-width: 5px;
+    padding: 3px;
+}
+#P2{
+    background-color: rgb(111, 111, 231);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 10pt;
+    margin-left: 2.5cm ;
+    margin-right: 2cm;
+    text-indent: 3cm; /* esirida */
+    margin-top: 12pt; /*lõiguvahed  */
+    margin-bottom: 12pt; /*pärast*/
+    line-height: 1.5rem;
+    border-spacing: 3px;
+    border-bottom: 6px double blue ;
+    border-right: 6px double blue ;
+
+    
+}
+#P3{
+    background-color: bisque;
+    font-family: "Courier New","Courier","Lucida Sans";
+    font-size: 12pt;
+    border-bottom:9px double purple;
+    border-top:9px double purple;
+    text-align: center;
+    text-indent: 0;
+    margin-left: 3.5cm;
+    margin-right: 3.5cm;    
+    margin-top: 0;
+    margin-bottom: 12pt;
+    line-height: 1rem;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    
+}
+#P4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-style: dotted;
+    border-color: red;
+    text-align: left;
+    margin-left: 1.5cm;
+    margin-right: 1cm;
+    text-indent: -2.2cm;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 25pt;
+    padding-left: 2.4cm;
+    
+}
+#P5{
+    font-family: Calibri, sans-serif;
+    font-size: 14pt;
+    border-right: 3px dashed purple;
+    border-bottom: 3px dashed purple;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 3cm;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    line-height: 1.25rem;
+}
